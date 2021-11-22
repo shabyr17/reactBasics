@@ -50,7 +50,10 @@ function Employees() {
         getEmployeeList()
     }, [])
 
-    return TableDemo(columns, employees, errorFetchingApiData)
+    return <TableDemo 
+        columns={columns} 
+        data={employees} 
+        errorFetchingApiData={errorFetchingApiData} />
 
 }
 

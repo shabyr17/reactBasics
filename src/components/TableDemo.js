@@ -1,6 +1,10 @@
 import { useTable } from 'react-table';
 
-function TableDemo(columns, data, errorFetchingApiData) {
+function TableDemo(props) {
+    const columns = props.columns
+    const data= props.data
+    const errorFetchingApiData = props.errorFetchingApiData
+    
     const {
         getTableProps,
         getTableBodyProps,
