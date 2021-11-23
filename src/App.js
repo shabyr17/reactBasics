@@ -2,6 +2,7 @@ import './App.css';
 
 import LoginFormContainer from './components/LoginFormContainer.component';
 import SignUpContainer from './components/SignUpContainer.component';
+
 import { useState } from 'react';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
   }
 
   return (
+    
     <>
       <div className={classList} id="container" >
-        <SignUpContainer handleCLickSignIn={handleCLickSignIn}  handleCLickSignUp = {handleCLickSignUp} />
+        <SignUpContainer handleCLickSignIn={handleCLickSignIn} handleCLickSignUp={handleCLickSignUp} />
         <LoginFormContainer />
       </div>
     </>
