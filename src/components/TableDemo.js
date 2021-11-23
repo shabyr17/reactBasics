@@ -25,7 +25,7 @@ function TableDemo(props) {
                                         borderBottom: 'solid 3px blue',
                                         background: 'green',
                                         color: 'white',
-                                        fontWeight: 'bold',
+                                        fontWeight: 'bold'                                        
                                     }}
                                 >{column.render('Header')}</th>
                             ))}
@@ -36,7 +36,14 @@ function TableDemo(props) {
                     {rows.map(row => {
                         prepareRow(row)
                         return (
-                            <tr {...row.getRowProps()}>
+                            <tr {...row.getRowProps()}
+                            style={{
+                                borderBottom: 'solid 3px',
+                                background: '#EEE',                                
+                                fontWeight: 'bold',
+                                textTransform: 'capitalize'
+                            }}
+                            >
                                 {row.cells.map(cell => {
                                     return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                                 })}
