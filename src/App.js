@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
+import LoginFormContainer from './components/LoginFormContainer.component';
+import SignUpContainer from './components/SignUpContainer.component';
+import { useState } from 'react';
+
 function App() {
+  const [classList, setClassList] = useState("container");
+
+  const handleCLickSignIn = () => {
+    setClassList("container")
+  }
+  const handleCLickSignUp = () => {
+    setClassList("container right-panel-active")
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className={classList} id="container" >
+        <SignUpContainer handleCLickSignIn={handleCLickSignIn}  handleCLickSignUp = {handleCLickSignUp} />
+        <LoginFormContainer />
+      </div>
+    </>
   );
 }
 
