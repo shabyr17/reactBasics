@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './components/card-list/card-list.component';
 import SearchBar from './components/search-bar/search-bar.component';
+import Header from './components/header/header.component';
 
 class App extends Component {
 
@@ -34,11 +35,13 @@ class App extends Component {
     const handleSearchInput = (e) => {
       this.setState({searchFilterText: e.target.value})
     }
-    console.log("here", this.state)
+
     const {employees, searchFilterText} = this.state
     const filteredEmployees = employees.filter(employee => employee.name.toLowerCase().includes(searchFilterText.toLowerCase()))
+
     return (
       <div className='App'>
+        <Header />
         <SearchBar onChange= {handleSearchInput} />
         {this.state.apiResult === true ? <CardList employees={filteredEmployees} /> : <div> API not working </div>}
       </div>
