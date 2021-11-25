@@ -24,25 +24,33 @@ class App extends Component {
         } else {
           return Promise.reject('some other error: ' + response.status)
         }
-      })      
+      })
       .then(response => {
-        this.setState({ employees: response, apiResult: true })
+        this.setState({ employees: response, apiResult: true }, () => {
+          this.setState({
+            employees: this.state.employees.map((emp) => {
+              let obj = emp
+              obj.image = `https://robohash.org/${Math.floor(Math.random() * 50)}?set=set2`
+              return obj
+            })
+          })
+        })
       })
       .catch(response => { console.log("Error retrieving data") })
   }
 
   render() {
     const handleSearchInput = (e) => {
-      this.setState({searchFilterText: e.target.value})
+      this.setState({ searchFilterText: e.target.value })
     }
 
-    const {employees, searchFilterText} = this.state
+    const { employees, searchFilterText } = this.state
     const filteredEmployees = employees.filter(employee => employee.name.toLowerCase().includes(searchFilterText.toLowerCase()))
 
     return (
       <div className='App'>
         <Header />
-        <SearchBar onChange= {handleSearchInput} />
+        <SearchBar onChange={handleSearchInput} />
         {this.state.apiResult === true ? <CardList employees={filteredEmployees} /> : <div> API not working </div>}
       </div>
     )
