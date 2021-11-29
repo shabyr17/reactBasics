@@ -49,7 +49,10 @@ class App extends Component {
 
     return (
       <div className='App'>
-        <Header />
+        {/* <Header /> */}
+        <h1 className='headertext'>
+          Monsters here
+        </h1>
         <SearchBar onChange={handleSearchInput} />
         {this.state.apiResult === true ? <CardList employees={filteredEmployees} /> : <div> API not working </div>}
       </div>

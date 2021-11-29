@@ -11,6 +11,7 @@
     background-color: #282c34;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     z-index:999;
+    font-family: 'Bigelow Rules', cursive;
   }
   
   .Logo {
@@ -47,6 +48,7 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 70ms;
+    font-family: 'Bigelow Rules', cursive;
   }
   
   .Nav button:active {
