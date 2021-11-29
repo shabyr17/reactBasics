@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/reactBasics/static/css/main.fe347528.chunk.css",
+    "main.js": "/reactBasics/static/js/main.fe8ca212.chunk.js",
+    "main.js.map": "/reactBasics/static/js/main.fe8ca212.chunk.js.map",
+    "runtime-main.js": "/reactBasics/static/js/runtime-main.8a61a566.js",
+    "runtime-main.js.map": "/reactBasics/static/js/runtime-main.8a61a566.js.map",
+    "static/js/2.93352c3c.chunk.js": "/reactBasics/static/js/2.93352c3c.chunk.js",
+    "static/js/2.93352c3c.chunk.js.map": "/reactBasics/static/js/2.93352c3c.chunk.js.map",
+    "static/js/3.d262f93d.chunk.js": "/reactBasics/static/js/3.d262f93d.chunk.js",
+    "static/js/3.d262f93d.chunk.js.map": "/reactBasics/static/js/3.d262f93d.chunk.js.map",
+    "index.html": "/reactBasics/index.html",
+    "static/css/main.fe347528.chunk.css.map": "/reactBasics/static/css/main.fe347528.chunk.css.map",
+    "static/js/2.93352c3c.chunk.js.LICENSE.txt": "/reactBasics/static/js/2.93352c3c.chunk.js.LICENSE.txt",
+    "static/media/React_logo_wordmark.f153eb9f.png": "/reactBasics/static/media/React_logo_wordmark.f153eb9f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a61a566.js",
+    "static/js/2.93352c3c.chunk.js",
+    "static/css/main.fe347528.chunk.css",
+    "static/js/main.fe8ca212.chunk.js"
+  ]
+}
