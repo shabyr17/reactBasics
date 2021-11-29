@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/reactBasics/static/css/main.fe347528.chunk.css",
-    "main.js": "/reactBasics/static/js/main.fe8ca212.chunk.js",
-    "main.js.map": "/reactBasics/static/js/main.fe8ca212.chunk.js.map",
-    "runtime-main.js": "/reactBasics/static/js/runtime-main.8a61a566.js",
-    "runtime-main.js.map": "/reactBasics/static/js/runtime-main.8a61a566.js.map",
-    "static/js/2.93352c3c.chunk.js": "/reactBasics/static/js/2.93352c3c.chunk.js",
-    "static/js/2.93352c3c.chunk.js.map": "/reactBasics/static/js/2.93352c3c.chunk.js.map",
-    "static/js/3.d262f93d.chunk.js": "/reactBasics/static/js/3.d262f93d.chunk.js",
-    "static/js/3.d262f93d.chunk.js.map": "/reactBasics/static/js/3.d262f93d.chunk.js.map",
+    "main.css": "/reactBasics/static/css/main.179df8e5.chunk.css",
+    "main.js": "/reactBasics/static/js/main.6fffc48c.chunk.js",
+    "main.js.map": "/reactBasics/static/js/main.6fffc48c.chunk.js.map",
+    "runtime-main.js": "/reactBasics/static/js/runtime-main.f15fe704.js",
+    "runtime-main.js.map": "/reactBasics/static/js/runtime-main.f15fe704.js.map",
+    "static/css/2.9f47065b.chunk.css": "/reactBasics/static/css/2.9f47065b.chunk.css",
+    "static/js/2.0061d1ee.chunk.js": "/reactBasics/static/js/2.0061d1ee.chunk.js",
+    "static/js/2.0061d1ee.chunk.js.map": "/reactBasics/static/js/2.0061d1ee.chunk.js.map",
+    "static/js/3.4fbb653b.chunk.js": "/reactBasics/static/js/3.4fbb653b.chunk.js",
+    "static/js/3.4fbb653b.chunk.js.map": "/reactBasics/static/js/3.4fbb653b.chunk.js.map",
     "index.html": "/reactBasics/index.html",
-    "static/css/main.fe347528.chunk.css.map": "/reactBasics/static/css/main.fe347528.chunk.css.map",
-    "static/js/2.93352c3c.chunk.js.LICENSE.txt": "/reactBasics/static/js/2.93352c3c.chunk.js.LICENSE.txt",
+    "static/css/2.9f47065b.chunk.css.map": "/reactBasics/static/css/2.9f47065b.chunk.css.map",
+    "static/css/main.179df8e5.chunk.css.map": "/reactBasics/static/css/main.179df8e5.chunk.css.map",
+    "static/js/2.0061d1ee.chunk.js.LICENSE.txt": "/reactBasics/static/js/2.0061d1ee.chunk.js.LICENSE.txt",
     "static/media/React_logo_wordmark.f153eb9f.png": "/reactBasics/static/media/React_logo_wordmark.f153eb9f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8a61a566.js",
-    "static/js/2.93352c3c.chunk.js",
-    "static/css/main.fe347528.chunk.css",
-    "static/js/main.fe8ca212.chunk.js"
+    "static/js/runtime-main.f15fe704.js",
+    "static/css/2.9f47065b.chunk.css",
+    "static/js/2.0061d1ee.chunk.js",
+    "static/css/main.179df8e5.chunk.css",
+    "static/js/main.6fffc48c.chunk.js"
   ]
 }
